@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat',sans-serif;
+   
+}
+/* Postioning components  */
+.container{
+    min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+.title{
+    align-self: center;
+}
+.content{
+    flex-grow: 1;
+    margin: 50px;
+    font-family: 'McLean',sans;
+}
+.buttom{
+    font-family: 'Montserrat',sans-serif;
+}
+/* Body section */
+body{
+    padding: 0 16px;
+    background: rgb(219, 240, 234);
+    /* display: flex; */
+}
+/* Header section */
+header{
+    background-color: rgb(74, 182, 132);
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    
+}
+header h1{
+    color: white;
+    font-family: 'McLaren',cursive;
+    text-align: center;
+    font-weight: 400;
+    font-size: 70px;
+}
+/* Footer section */
+footer{
+   margin-bottom: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+footer p{
+     color: gray;
+}
+/* Note Section */
+.note{
+    max-width: 500px;
+    height: 300px;
+    margin: 16px;
+    float: left;
+    padding:10px;
+    margin-left: 40px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(83, 77, 77);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.emoji {
+    font-size: 5em;
+    padding: 0 35%;
+    
+  }
+.note dt {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+    color: rgb(74, 182, 132);
+  }
+  .note dd{
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 25px;
+    font-size: 1.1rem;
+    color: rgb(77, 74, 74);
+  }
+  
+  
